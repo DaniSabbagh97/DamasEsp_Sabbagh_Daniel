@@ -21,7 +21,8 @@ int intro() {
     int op = 0;
     do {
         do {
-            system("cls");
+            //system("cls");
+            cout << "\033[2J\033[1;1H";
             cout << "\t\t_________________________" << endl;
             cout << "\t\t                                                                    " << endl;
             cout << "\t\t UNIVERSIDAD EUROPEA - ESCUELA DE ARQUITECTURA, INGENIERIA Y DISEÑO" << endl;
